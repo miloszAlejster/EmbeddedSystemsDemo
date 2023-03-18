@@ -1,0 +1,166 @@
+$comment
+	File created using the following command:
+		vcd file symulacje.msim.vcd -direction
+$end
+$date
+	Sat Mar 18 23:36:52 2023
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module decoder_hex_16_vlg_vec_tst $end
+$var reg 4 ! x [3:0] $end
+$var wire 1 " h0 [0] $end
+$var wire 1 # h0 [1] $end
+$var wire 1 $ h0 [2] $end
+$var wire 1 % h0 [3] $end
+$var wire 1 & h0 [4] $end
+$var wire 1 ' h0 [5] $end
+$var wire 1 ( h0 [6] $end
+$var wire 1 ) h1 [0] $end
+$var wire 1 * h1 [1] $end
+$var wire 1 + h1 [2] $end
+$var wire 1 , h1 [3] $end
+$var wire 1 - h1 [4] $end
+$var wire 1 . h1 [5] $end
+$var wire 1 / h1 [6] $end
+
+$scope module i1 $end
+$var wire 1 0 gnd $end
+$var wire 1 1 vcc $end
+$var wire 1 2 unknown $end
+$var tri1 1 3 devclrn $end
+$var tri1 1 4 devpor $end
+$var tri1 1 5 devoe $end
+$var wire 1 6 ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 7 x[1]~input_o $end
+$var wire 1 8 x[0]~input_o $end
+$var wire 1 9 x[2]~input_o $end
+$var wire 1 : x[3]~input_o $end
+$var wire 1 ; WideOr6~0_combout $end
+$var wire 1 < WideOr5~0_combout $end
+$var wire 1 = h0~0_combout $end
+$var wire 1 > WideOr4~0_combout $end
+$var wire 1 ? WideOr3~0_combout $end
+$var wire 1 @ WideOr2~0_combout $end
+$var wire 1 A WideOr1~0_combout $end
+$var wire 1 B WideOr0~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 !
+0(
+1'
+1&
+0%
+0$
+0#
+0"
+1/
+1.
+1-
+1,
+1+
+1*
+0)
+00
+11
+x2
+13
+14
+15
+06
+07
+18
+09
+0:
+1;
+0<
+0=
+1>
+1?
+1@
+0A
+0B
+$end
+#10000
+b11 !
+b10 !
+08
+17
+0?
+0>
+1=
+0;
+1A
+1"
+1(
+0&
+1%
+1$
+#20000
+b11 !
+18
+1?
+0=
+1&
+0$
+#30000
+b111 !
+b101 !
+b100 !
+08
+07
+19
+0@
+1>
+1;
+0(
+0%
+1#
+#40000
+b101 !
+18
+0>
+1<
+0;
+1(
+0'
+1%
+#50000
+b1101 !
+b1111 !
+17
+1:
+1B
+0*
+0+
+0,
+0/
+#60000
+b1011 !
+b1010 !
+b10 !
+b0 !
+08
+07
+09
+0:
+0B
+0?
+0<
+0A
+0"
+1'
+1$
+1*
+1+
+1,
+1/
+#1000000

@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/SW/Niesymulacje/simulation/qsim
+vtwo_decimal
+Z1 !s110 1679177084
+!i10b 1
+!s100 mz29l2=hUnU1^J[<0dUdP1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@0T5Z2P40GN5_?l5P`fVM1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1679177084
+8niesymulacje.vo
+Fniesymulacje.vo
+!i122 2
+L0 32 969
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1679177084.000000
+!s107 niesymulacje.vo|
+!s90 -work|work|niesymulacje.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vtwo_decimal_vlg_vec_tst
+R1
+!i10b 1
+!s100 cDi_cXm?kfBz^KRlPHM`S0
+R2
+Ia=@bT3:4ECKCBfgK8Mn?<3
+R3
+R0
+w1679177082
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 79
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7

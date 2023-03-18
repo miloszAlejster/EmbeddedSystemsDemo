@@ -1,0 +1,3 @@
+module decoder_hex_10 (input[3:0]x, output[0:6]h)
+
+endmodule

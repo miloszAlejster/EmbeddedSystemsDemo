@@ -1,1 +1,0 @@
-module two_decimal(input a1, a0, output a1, a0, output [a1], [a0]);

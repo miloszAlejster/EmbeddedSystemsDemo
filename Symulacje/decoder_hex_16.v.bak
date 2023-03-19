@@ -1,3 +1,0 @@
-module decoder_hex_16 (input[3:0]x, output[0:6]h);
-	
-endmodule

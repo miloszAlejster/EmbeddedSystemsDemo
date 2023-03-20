@@ -57,13 +57,13 @@ module decoder_hex_16 (
 					end
 				10: 
 					begin
-					h1 = 7'b0111111;
+					h1 = 7'b0000110;
 					h0 = 7'b0111111;
 					end
 				11: 
 					begin
 					h1 = 7'b0000110;
-					h0 = 7'b0111111;
+					h0 = 7'b0000110;
 					end
 				12: 
 					begin

@@ -27,10 +27,9 @@ module adder_BCD_2_digits(
 	// error
 	reg error;
 	assign LEDR[9] = error;
-	always @(*)begin
-		if(HEX3 == 7'b1000000 || HEX5 == 7'b1000000)
+	always @(*)
+		if(HEX3 == 7'b0111111 || HEX5 == 7'b0111111)
 			error = 1'b1;
 		else
 			error = 1'b0;
-	end
 endmodule

@@ -15,12 +15,12 @@ module two_decimal(
 	
 	always @(*) begin
 		LEDR[7:0] = SW[7:0];
-		if (number1 == 7'b1000000)
+		if (number1 == 7'b0111111)
 			LEDR[9] = 1'b1;
 		else
 			LEDR[9] = 1'b0;
 
-		if (number0 == 7'b1000000)
+		if (number0 == 7'b0111111)
 			LEDR[8] = 1'b1;
 		else
 			LEDR[8] = 1'b0;
